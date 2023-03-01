@@ -33,7 +33,7 @@ def get_save_confirmation():
             return True
         if user_input == "n":
             return False
-        print(Style.BRIGHT + Fore.RED + "Please input y or n - you bastatd - (or Ctrl+c to exit).")
+        print(Style.BRIGHT + Fore.RED + "Please input y or n - you bastatd (sorry if you're reading this Dr Iles-Smith) - (or Ctrl+c to exit).")
         print(Style.RESET_ALL)
 
 
