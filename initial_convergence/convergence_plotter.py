@@ -39,7 +39,9 @@ def get_save_confirmation():
 
 def get_high_or_low_expected_temperature():
     while True:
-        user_input = input("Do you expect this temperature to be high or low? [high/low]: ")
+        user_input = input("Do you expect this temperature to be high or low?"
+                           "\n(nIf unsure enter high)"
+                           "\n[high/low]: ")
         if user_input == "high":
             return True
         if user_input == "low":
